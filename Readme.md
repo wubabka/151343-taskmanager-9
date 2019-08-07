@@ -48,5 +48,10 @@ git clone SSH-адрес_вашего_форка
 
 Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Профессиональный JavaScript, уровень 2](https://htmlacademy.ru/intensive/ecmascript)» от [HTML Academy](https://htmlacademy.ru).
 
+<<<<<<< HEAD
 [travis-image]: https://travis-ci.com/htmlacademy-ecmascript/151343-taskmanager-9.svg?branch=master
 [travis-url]: https://travis-ci.com/htmlacademy-ecmascript/151343-taskmanager-9
+=======
+[travis-image]: https://travis-ci.com/htmlacademy-ecmascript/151343-cinemaddict-9.svg?branch=master
+[travis-url]: https://travis-ci.com/htmlacademy-ecmascript/151343-cinemaddict-9
+>>>>>>> c7f73714ccdc84701dade6be1c8d01ee5f951629
