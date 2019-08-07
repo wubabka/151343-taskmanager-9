@@ -471,16 +471,16 @@ const btnTemplate = `
 `;
 
 const renderComponent = (container, component) => {
-  const containerEl = document.querySelector("." + container);
-  containerEl.insertAdjacentHTML("beforeend", component);
+  const containerEl = document.querySelector(`.` + container);
+  containerEl.insertAdjacentHTML(`beforeend`, component);
 };
 
-renderComponent("main__control", menuTemplate);
-renderComponent("main", searchTemplate);
-renderComponent("main", filterTemplate);
-renderComponent("main", boardTemplate);
-renderComponent("board__tasks", editCardTemplate);
-renderComponent("board__tasks", cardTemplate);
-renderComponent("board__tasks", cardTemplate);
-renderComponent("board__tasks", cardTemplate);
-renderComponent("board", btnTemplate);
+renderComponent(`main__control`, menuTemplate);
+renderComponent(`main`, searchTemplate);
+renderComponent(`main`, filterTemplate);
+renderComponent(`main`, boardTemplate);
+renderComponent(`board__tasks`, editCardTemplate);
+renderComponent(`board__tasks`, cardTemplate);
+renderComponent(`board__tasks`, cardTemplate);
+renderComponent(`board__tasks`, cardTemplate);
+renderComponent(`board`, btnTemplate);
